@@ -1,0 +1,5 @@
+@use "variables" as var;
+
+.services-container h3, h4 {
+  color: var(--color-purple);
+}

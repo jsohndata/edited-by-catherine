@@ -2,6 +2,12 @@
     font-size: clamp(1.5rem, 1.8vw, 2.1rem);
 } */
 
+@use "intro";
+@use "hero";
+@use "gallery";
+@use "services";
+@use "accordian";
+
 
 /* Global */
 .parent-container {
@@ -19,73 +25,33 @@
 
 
 
-
-/* Intro */
-#intro div:nth-child(2) img {
-  border: 5px solid var(--color-primary--light);
-  object-fit: cover;
-  height: 100%;
-}
-
-
-  
-
-
-/* Services */
-.services-container h3, h4 {
-    color: var(--color-purple);
-}
-
-
-
-
-
-
-
-
-
-.accordion {
-    --bs-accordion-bg: transparent;
-}
-
-.accordion-item {
-    background-color: rgba(252, 253, 253, 0.384);
-}
-.accordion-body {
-    padding: 30px;
-}
-  
-
-
-
-
 .backdrop-effect {
-  background-color: rgba(0, 0, 0, 0.7);
-  backdrop-filter: brightness(100px);  
-  -webkit-backdrop-filter: brightness(100px);  
-  backdrop-filter: blur(3px);  
-  -webkit-backdrop-filter: blur(3px);
-}
-
-.button-effect {
-    display: block;
-    transform: scale(1.0);
-    transition: transform 0.23s ease-in-out;
-}
-  
-.button-effect:hover {    
-    filter: drop-shadow(0 0 10px rgba(0, 5, 9, 0.319));
-    z-index: 999;
-
-    transform: scale(1.13);
-    transition: transform 0.7s ease-in-out;
-}
-
-/* Disable hover effects on mobile */
-@media (max-width: 768px) {
-    .button-effect:hover
-    {
-        transform: scale(1.0);
-        filter: none;
-    }
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: brightness(100px);  
+    -webkit-backdrop-filter: brightness(100px);  
+    backdrop-filter: blur(3px);  
+    -webkit-backdrop-filter: blur(3px);
   }
+  
+  .button-effect {
+      display: block;
+      transform: scale(1.0);
+      transition: transform 0.23s ease-in-out;
+  }
+    
+  .button-effect:hover {    
+      filter: drop-shadow(0 0 10px rgba(0, 5, 9, 0.319));
+      z-index: 999;
+  
+      transform: scale(1.13);
+      transition: transform 0.7s ease-in-out;
+  }
+  
+  /* Disable hover effects on mobile */
+  @media (max-width: 768px) {
+      .button-effect:hover
+      {
+          transform: scale(1.0);
+          filter: none;
+      }
+}

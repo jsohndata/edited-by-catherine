@@ -1,5 +1,4 @@
 import {  Container, Row, Col } from "../../utilis/Bootstrap.js";
-import "../../styles/hero.scss";
 
 export default function Hero( {textTitle, textLeft, textRight} ) {
   return (
