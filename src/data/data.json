@@ -1,198 +1,86 @@
 [
   {
     "id": 1,
-    "title": "Anime Ave",
-    "author": "Idan Fischer",
-    "prior": "Recent High School Graduate",
+    "title": "Zeus the Mighty: The Voyage on the Oddest Sea (Book 5)",
+    "author": "Crispin Boyer",
     
-    "content" : "Anime Avenue is a platform for anime enthusiasts to share reviews on various anime titles, with the flexibility to add, edit or delete their posts. It's a welcoming space for fans to discuss and review their favorite anime series.",
-    
-    "youtube" : "https://www.youtube.com/watch?v=Fp4gCRiFF4k",
-    "website": "https://final-project-frontend-if.web.app",
-    "candidate": "https://bocacode.com/candidates/software-engineer/idan-fischer",
+    "content" : "To Be Published March 2023",
 
-    "cover": "https://jsohndata.github.io/bocacode-c9/images/covers/anime-ave.webp"    
+    "cover": "http://localhost:3000/edited-by-catherine/images/covers/zeus-the-mighty-voyage-on-the-oddest-sea-book-5.webp"    
   },
 
   {
     "id": 2,
-    "title": "Budget Buddy",
-    "author": "Migule Camilo",
-    "prior": "Former Apple Genius",
+    "title": "Extra Life: The Astonishing Story of How We Doubled Our Lifespan",
+    "author": " Steven Johnson",
 
-    "content" : "Budget Buddy is a web app designed to help you track your expenses and manage your finances with ease. With features like a savings goal tracker and a community forum where you can view and share finance resources.", 
+    "content" : "<p>To Be Published January 2023</p><p><q>A refreshing change of pace for readers weary of hearing that things are just getting worse.<q><br>—<em>Kirkus Reviews</em></p>", 
 
-    "youtube" : "https://www.youtube.com/watch?v=XPNZBO3OQB8",
-    "website": "https://budget-buddy-app.web.app/dashboard",
-    "candidate": "https://bocacode.com/candidates/software-engineer/miguel-camilo",
 
-    "cover": "https://jsohndata.github.io/bocacode-c9/images/covers/budget-buddy.webp"    
+    "cover": "http://localhost:3000/edited-by-catherine/images/covers/extra-life.jpg"    
   },
 
   {
     "id": 3,
-    "title": "Echo",
-    "author": "Gisselle Pombar",
-    "prior": "Former MIT Chemistry PhD Candidate",
+    "title": "Agent Most Wanted: The Never Before Told Story of the Most Dangerous Spy of World War II",
+    "author": "Sonia Purnell",
 
-    "content" : "",
+    "content" : "<p><q>This riveting biography provides the framework of Hall's life, concentrating on the war years and her phenomenal ability to fade into the background while gathering intelligence, communicating with the British, and undermining German control within occupied France. Young readers intrigued by espionage during World War II will find this a well-researched, smoothly written, and completely riveting account of Hall's experiences.</q><br><em>—Booklist, starred review</em></p><p><q>Well-chosen, key moments convey Hall's reliance on both luck and her own instincts, her quick thinking, her immense skill at assessing perilous situations, and her frank courage. . . A captivating account of a remarkable woman.</q><br><em>—Kirkus Reviews, starred review</em></p><p>A Kids' Indie Next List Selection</p>",
 
-    "youtube" : "https://www.youtube.com/watch?v=q2Lm0XSjoIA",
-    "website": "https://echo-cards.web.app/",
-    "candidate": "https://bocacode.com/candidates/software-engineer/gisselle-pombar",
 
-    "cover": "https://jsohndata.github.io/bocacode-c9/images/covers/echo.webp"    
+    "cover": "http://localhost:3000/edited-by-catherine/images/covers/agent-most-wanted.webp"    
   },
 
   {
     "id": 4,
-    "title": "PigEBank",
-    "author": "Daniel Barba",
-    "prior": "Former Aerospace Machinist",
+    "title": "Permanent Record How One Man Exposed the Truth about Government Spying and Digital Security",
+    "author": "Edward Snowden",
 
-    "content" : "PigEBank is a banking and chore tracking app built to equip parents to teach their kids about finances. Using chores as income, parents can teach their children fundamentals in managing income, savings, and debt.",
+    "content" : "<p>Young Readers edition adapted by Catherine Frank</p><p><q>Skillfully adapted from his best-selling adult book.</q><br>—<em>Booklist</em></p><p><q>An absorbing read about digital privacy and one man's fateful choice to disclose government secrets.</q><br><em>―Kirkus Reviews</em></p><p><q>A fascinating look behind the scenes of real-life espionage.</q><br><em>―School Library Journal</em></p>",
 
-    "youtube" : "https://www.youtube.com/watch?v=eeMMautVnK4",
-    "website": "https://pig-e-bank-app.firebaseapp.com/",
-    "candidate": "https://bocacode.com/candidates/software-engineer/daniel-barba",
 
-    "cover": "https://jsohndata.github.io/bocacode-c9/images/covers/pig-e-bank.png"    
+    "cover": "http://localhost:3000/edited-by-catherine/images/covers/permanent-record.jpg"    
   },
 
   {
     "id": 5,
-    "title": "Certified Gamer",
-    "author": "Joseph Graffeo",
-    "prior": "Former Sports/Trading Card Grading Expert",
+    "title": "Daisy and the Missing Mona Lisa: A Daisy Tannenbaum Misadventure",
+    "author": "Edward Snowden",
 
-    "content" : "Aimed at providing gamers with a seamless and streamlined experience to effortlessly track their gaming activities in one unified place, CertifiedGamer is a simple and easy to use app that bridges the gap between dozens of gaming platforms and providers.",
+    "content" : "",
 
-    "youtube" : "https://www.youtube.com/watch?v=eeMMautVnK4",
-    "website": "https://www.certifiedgamerproject.com/",
-    "candidate": "https://bocacode.com/candidates/software-engineer/joseph-graffeo",
 
-    "cover": "https://jsohndata.github.io/bocacode-c9/images/covers/certified-gamer.webp"    
-  },
+    "cover": "http://localhost:3000/edited-by-catherine/images/covers/daisy-and-monda-lisa.webp"    
+  }, 
 
   {
     "id": 6,
-    "title": "iReccoStyle",
-    "author": "Anttoinette Henry",
-    "prior": "Stylist and Entrepreneur",
+    "title": "Ensnared in the Wolf's Lair Inside the 1944 Plot to Kill Hitler and the Ghost Children of His Revenge",
+    "author": "Ann Bausum",
 
-    "content" : "Black women often struggle to be recognized for their beauty in society. Our skin tone, hair texture, and history of revolution have resulted in a negative stigma, making us feel unwanted and undesirable. As a result, many of us avoid standing out and embracing our uniqueness. However, Ireccostyle is here to remind black women that they are seen, heard, and appreciated for their beauty.",
+    "content" : "<p><q>An eye-opening look at an unforgettable historical event. Highly recommended.</q><br><em>―Booklist, starred review</em></p><p><q>A well-researched, detailed account of a part of World War II that remains unknown to many today.</q><br><em>―School Library Journal, starred review</em></p>",
 
-    "youtube" : "https://www.youtube.com/watch?v=5LD1l9uEVLU",    
-    "website": "https://ireccostyle-frontend.web.app/",
-    "candidate": "https://bocacode.com/candidates/software-engineer/anttoinette-henry",
-
-    "cover": "https://jsohndata.github.io/bocacode-c9/images/covers/ireccostyle.webp"
+    "cover": "http://localhost:3000/edited-by-catherine/images/covers/ensnared-in-the-wolfs-lair.jpg"    
   },
 
   {
     "id": 7,
-    "title": "Chromesthesia Sound",
-    "author": "Anthony Murphy",
-    "prior": "Recent High School Graduate",
+    "title": "Bonnie and Clyde: The Making of a Legend",
+    "author": "Karen Blumenthal",
 
-    "content" : "For those who need to get their opinions on music out there as quick and simply as possible, Chromesthesia is a website made to effortlessly post thoughts on music.",
+    "content" : "<p>Awards and Honors include:<ul><li>BCCB Blue Ribbon selection</li><li>Booklist Editors' Choice</li><li>Booklist Top 10 Romance Fiction for Youth List</li><li>New York Public Library Best Books for Teens</li></ul></p><p><q>An extraordinarily successful resource about a painful time in history and a complicated, infamous pair.</q><br><em>-Booklist, starred review</em></p><p><q>An extraordinarily successful resource about a painful time in history and a complicated, infamous pair.</q><br><em>-School Library Connection, starred review</em></p>",
 
-    "youtube" : "https://www.youtube.com/watch?v=nrUAAwlA34Q",    
-    "website": "https://chromesthesia-world.web.app/",
-    "candidate": "https://bocacode.com/candidates/software-engineer/anthony-murphy",
-
-    "cover": "https://jsohndata.github.io/bocacode-c9/images/covers/omesthesia-sound.webp"
+    "cover": "http://localhost:3000/edited-by-catherine/images/covers/bonnie-and-clyde-the-making-of-a-legend.jpg"    
   },
 
   {
     "id": 8,
-    "title": "LDS: Lead Delivery System",
-    "author": "Edilma Riano",
-    "prior": "Marketing and Lead Expert",
+    "title": "Zeus the Mighty: The Epic Escape from the Underworld (Book 4)",
+    "author": "Crispin Boyer",
 
-    "content" : "For businesses that want to boost their sales performance. The LDS ( Lead Distribution System) streamlines the lead management process by integrating lead capture, segmentation, and distribution. With advanced algorithms, the LDS filters and routes leads to the most appropriate lead buyers or sales team members based on your company's criteria. The system also provides valuable insights and analytics, allowing you to make data-driven decisions about your lead generation strategy. Easy to use and customizable, the LDS is the ideal solution for businesses of all sizes and industries looking to optimize their sales pipeline.",
-
-    "youtube" : "https://www.youtube.com/watch?v=mv9hVLsqptk",    
-    "website": "http://lds-leads.s3-website-us-east-1.amazonaws.com/",
-    "candidate": "https://bocacode.com/candidates/software-engineer/edilma-riano",
-
-    "cover": "https://jsohndata.github.io/bocacode-c9/images/covers/lead-distribution-system.webp"
-  },
-
-  {
-    "id": 9,
-    "title": "PracPal",
-    "author": "Beatriz Recari",
-    "prior": "Former 3-time LPGA champion",
-
-    "content" : "Pracpal is an app designed for athletes by athletes, with user/password and Google sign in where they can log their practice regime for the week, update it and delete it. They are able also to retrieve stored data optimizing efficiency.",
-
-    "youtube" : "https://www.youtube.com/watch?v=4jcJuqay318",    
-    "website": "https://pracpal.com/",
-    "candidate": "https://bocacode.com/candidates/software-engineer/beatriz-recari",
-
-    "cover": "https://jsohndata.github.io/bocacode-c9/images/covers/pracpal.webp"
-  },
-
-  {
-    "id": 10,
-    "title": "Lineupwiz",
-    "author": "Varlince Meran",
-    "prior": "Former Software Support Analyst",
-
-    "content" : "Lineupwiz is about simplifying soccer formation management. It presents clear visual representations of soccer formations and the player positions.",
-
-    "youtube" : "https://www.youtube.com/watch?v=_ujz_ROM0_g",    
-    "website": "https://lineupwiz.web.app/",
-    "candidate": "https://bocacode.com/candidates/software-engineer/varlince-meran",
-
-    "cover": "https://jsohndata.github.io/bocacode-c9/images/covers/lineupwiz.webp"
-  },
+    "content" : "",
 
 
-
-  {
-    "id": 11,
-    "title": "Cheers!",
-    "author": "Gisele Abzalov",
-    "prior": "Former Finance Expert and Entrepreneur",
-
-    "content" : "Cheers!, furnishes beverage recipes tailored for various occasions using uncomplicated ingredients and straightforward instructions.",
-
-    "youtube" : "https://www.youtube.com/watch?v=to-J1VuDBGs",    
-    "website": "https://cheers-frontend-ga.web.app/",
-    "candidate": "https://bocacode.com/candidates/software-engineer/gisele-abzalov",
-
-    "cover": "https://jsohndata.github.io/bocacode-c9/images/covers/cheers.webp"
-  },
-
-  {
-    "id": 12,
-    "title": "Explore Top 5",
-    "author": "Alliette Dortelus",
-    "prior": "Former TSA Agent",
-
-    "content" : "Welcome to my website, where I'll be sharing my favorite places to eat and things to do in the Fort Lauderdale area. My final project is called Top 5, and it's a collection of the top 5 places to eat and things to do that I absolutely love in this vibrant city.",
-
-    "youtube" : "https://www.youtube.com/watch?v=V3eFb7bG1Sc",    
-    "website": "https://final-top5-ad.web.app/home",
-    "candidate": "https://bocacode.com/candidates/software-engineer/alliette-dortelus",
-
-    "cover": "https://jsohndata.github.io/bocacode-c9/images/covers/top-5.webp"
-  },
-
-  {
-    "id": 13,
-    "title": "Zen Path",
-    "author": "Andy Linnell",
-    "prior": "Property and Ssset Manager",
-
-    "content" : "Zen Path is a gamified beginners guide to meditation. It was created to help anyone  learn how to meditate properly and quickly feel the benefits of a quite mind.",
-
-    "youtube" : "https://www.youtube.com/watch?v=7aFSaf9wGmg",    
-    "website": "https://zen-path-react.web.app/",
-    "candidate": "https://bocacode.com/candidates/software-engineer/andy-linnell",
-
-    "cover": "https://jsohndata.github.io/bocacode-c9/images/covers/zen-path.webp"
+    "cover": "http://localhost:3000/edited-by-catherine/images/covers/zeus-the-mighty.webp"    
   }
 ]

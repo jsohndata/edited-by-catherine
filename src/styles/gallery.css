@@ -1,0 +1,63 @@
+#portfolio .card {
+  opacity: 0.6;
+  transition: all 0.9s ease-out; 
+}
+
+#portfolio .card:hover {
+  opacity: 1;
+  transition: filter 0.9s ease-out; 
+}
+
+#portfolio figure {    
+  overflow: hidden;
+}
+
+#portfolio figure img { 
+  object-fit: cover;
+  object-position: top;
+  height: clamp(350px, 40vw, 400px);
+
+  transform: scale(1.0);
+  transition: transform 0.9s ease-out; 
+}
+
+#portfolio figure img:hover {
+  transform: scale(1.3);
+  transition: transform 0.5s ease-in-out;
+}
+
+
+.modal-dialog {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: clamp(1%, 4vh, 5%);
+  filter: drop-shadow(0px 0px 20px rgb(160, 0, 210));
+}
+
+.portfolio-modal-content {  
+  padding: 30px;
+  border-radius: 13px;  
+}
+
+.portfolio-modal-content p,
+.portfolio-modal-content li {
+  font-size: 95%;
+}
+
+@media (min-width: 0px) {
+  .portfolio-modal .modal-image {
+    width: 199px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio-modal .modal-image {
+    width: 332px;
+    height: 500px;
+    margin: 0 auto;
+    margin-right: 20px;
+  }
+}

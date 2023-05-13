@@ -1,18 +1,16 @@
-import { Container, Row, Col } from "../../utilis/Bootstrap.js";
-import { Github } from 'react-bootstrap-icons';
+import { Container, Row, Col, Image } from "../../utilis/Bootstrap.js";
 
 export default function Footer() {
-    const repoUrl = "https://github.com/jsohndata/bocacode-c9";
+    
 
     return (
       <footer>
         <Container className="mt-5 mb-5">
           <Row className="justify-content-center text-center">
-            <Col md={6}>
-              <a href={repoUrl} target="_blank" rel="noreferrer" >
-                  <Github color="#000000" size={27} />
-                  <p><small>See Code in Github</small></p>
-              </a>
+            <Col md={6}>                  
+                  <p><small>&copy; 2011-2023 Catherine Frank Editorial Services, LLC
+                    <br />
+                  <a href="mailto:catherine@editedbycatherine">catherine@editedbycatherine.com</a></small></p>
             </Col>
           </Row>
         </Container>
