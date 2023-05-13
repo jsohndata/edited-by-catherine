@@ -19,9 +19,7 @@ export default function GalleryCard({ data: {id, title, author, cover, content, 
         
         <Card.Body>
           <h3>{title}</h3>
-          <Card.Text>
-            By {author}
-          </Card.Text>
+          <p>By {author}</p>
 
           <Modal
             size="lg"

@@ -1,18 +1,11 @@
-import Hero from './components/Hero';
-import Intro from './components/Intro';
-import Gallery from './components/Gallery';
-// import Footer from './components/Footer';
+import Home from "./pages/Home.jsx";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './styles/app.css';
+import './styles/app.scss';
 
 function App() {
   return (
-    <div className="parent-container">
-      <Intro />
-      <Hero />
-      <Gallery />
-    </div>
+    <Home />
   );
 }
 

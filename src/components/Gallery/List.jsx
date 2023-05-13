@@ -1,7 +1,7 @@
-import { Container, Row, Col, Image, Accordion } from "../../utilis/Bootstrap.js";
+import { Container, Row, Col } from "../../utilis/Bootstrap.js";
 import Card from "./Panel.js";
 import data from '../../data/data.json'; 
-import "../../styles/Gallery.css";
+import "../../styles/gallery.scss";
 
 export default function Gallery() {
 
