@@ -8,7 +8,7 @@ export default function GalleryCard({ data: {id, title, author, cover, content, 
   const toggleShowModal = () => setShowModal(!showModal);
 
   return (
-    <Col sm={6} lg={4} xl={3} 
+    <Col xs={10} sm={6} lg={4} xl={3} 
       className="button-effect"
       onClick={toggleShowModal}>
       <Card>        
@@ -25,17 +25,17 @@ export default function GalleryCard({ data: {id, title, author, cover, content, 
             size="lg"
             show={showModal}
             onHide={toggleShowModal}
-            className="backdrop-effect portfolio-modal">
+            className="backdrop-effect modal-container">
             
             <div className="              
               d-flex
               flex-column
               flex-lg-row
-              portfolio-modal-content">
+              modal-layout">
               <Image 
                 src={cover}
                 alt=""
-                className="modal-image d-block" />
+                className="d-block" />
 
               <div>
                 <h3>{title}</h3>                

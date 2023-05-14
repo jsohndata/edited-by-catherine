@@ -1,4 +1,5 @@
 import {  Container, Row, Col } from "../../utilis/Bootstrap.js";
+import Column from "./Column.jsx";
 
 export default function Hero( {textTitle, textLeft, textRight} ) {
   return (
@@ -8,20 +9,18 @@ export default function Hero( {textTitle, textLeft, textRight} ) {
           !textTitle
           ? null
           : <Row className="d-flex justify-content-center">
-              <Col>
-                  <h2 className="text-center">{textTitle}</h2>
+              <Col xs={10}>
+                <h2 className="text-center py-4">{textTitle}</h2>
               </Col>
             </Row>
         }
 
-        <Row className="d-flex justify-content-center">
-          <Col lg={6}>
-              {textLeft}
-          </Col>
-
-          <Col lg={6}>
-              {textRight}
-          </Col>
+        <Row className="d-flex justify-content-center g-5">
+          {
+            (textLeft && textRight)
+            ? ( <><Column text={textLeft} /><Column text={textRight} /></> )
+            : ( <Column text={textLeft} />)
+          }
         </Row>
       </Container>
     </section>

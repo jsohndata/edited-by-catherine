@@ -1,5 +1,27 @@
+/* Colors */
 $color-primary: #884B93;
 $color-primary--light: rgba(136, 75, 147, 0.569);
 $color-dark: #232323;
 $color-light: #f4f5f6;
 $border-radius: 13px;
+
+/* Units */
+$hero-padding: 30px;
+
+/* Place Holder */
+%button-style {
+  padding: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+%hero-style {
+  padding-top: $hero-padding;
+  padding-bottom: $hero-padding;
+}
+
+%bg-gradient {
+  background-color: #FF3CAC;
+  background-image: linear-gradient(225deg, #84094fdd 0%, #784BA0 50%, #2B86C5 100%);
+  
+}
