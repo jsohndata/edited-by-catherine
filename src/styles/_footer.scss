@@ -1,0 +1,35 @@
+@use "variables" as var;
+
+footer { 
+  margin-top: 1.1rem;
+  transform: scale(1.0);
+  transition: transform 0.3s ease-in-out;
+  
+  // &:hover {
+  //   transform: scale(1.2);
+  //   filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.549));
+  //   transition: 0.5s;
+  // }
+
+  img {
+    width: 40px;
+    display: block;
+    aspect-ratio: 1/1;
+    filter: invert(0);
+    margin: 0 auto;
+    border: 0;
+    margin-bottom: 2px;
+  }
+
+  p {
+    font-size: clamp(1.0rem, 1.1vw, 1.2rem);    
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  a:link,
+  a:visited {
+    color: #021323e1 !important;
+    text-decoration: none !important;
+  }
+}

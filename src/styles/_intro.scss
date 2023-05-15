@@ -1,7 +1,20 @@
 @use "_variables" as var;
 
-#intro div:nth-child(2) img {
-  border: 5px solid var.$color-primary--light;
-  object-fit: cover;
-  height: 100%;
+main {
+  height: clamp(90vh, 10vh, 80vh);
+  background-color: rgba(0, 0, 0, 0.609);
+  background-image: url("../../public/images/site/bg11.webp");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-blend-mode: color;
+
+  h1, h2, p {
+    text-shadow: 10px 10px 20px rgb(13, 12, 12);
+  }
+
+  h1 { color: var.$color-light; }
+  h2 { color: var.$color-primary--light; }
+  p  { color: var.$color-light; }
 }

@@ -9,21 +9,21 @@
 * { font-family: 'Montserrat', sans-serif; }
 
 body { 
-  background: #f5f4ee url('https://www.editedbycatherine.com/theme/v1_2/image/background/background_grid_2.png') repeat left top;
-  transition: all 0.5 ease-in-out;  }
+  background-color: rgba(255, 255, 255, 0.793);
+  background-image: url("../../public/images/site/bg44.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-blend-mode: overlay;
+  transition: all 0.5 ease-in-out;
+}
 
 h1 {
-  font-size: clamp(4.5rem, 4vw, 6.3rem);
-  line-height: 1.0em;
-  font-weight: 700;
-}
-
-h1 > span {
-  color: #242464;
-}
-
-h1, h2 {
-  color: var.$color-primary;
+  font-size: clamp(4.5rem, 10vw, 5.5rem);
+  line-height: 1.1em;
+  font-weight: 600;
+  letter-spacing: -0.2rem;
 }
 
 h2 {
@@ -32,24 +32,25 @@ h2 {
 }
 
 h3 {
-  font-size: clamp(1.1em, 3vw, 1.2rem);
+  font-size: clamp(1.3em, 3vw, 1.6rem);
   font-weight: 550;
 }
 
 h4 {
   font-size: clamp(1.1em, 4vw, 1.3rem);
+  font-weight: 550;
 }
 
 
 p, li {
   font-size: clamp(1.0rem, 4vw, 1.3rem);
   line-height: 1.4em;
+  font-weight: 500;
   color: var.$color-dark;
 }
 
 a:link,
 a:visited { 
-  color: rgb(240, 240, 240);
   text-decoration: underline;
 }
 
@@ -57,36 +58,3 @@ a:hover {
   text-decoration: none;
 }
 
-footer { 
-  margin-top: 1.1rem;
-  transform: scale(1.0);
-  transition: transform 0.3s ease-in-out;
-}
-
-footer:hover {
-  transform: scale(1.2);
-  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.549));
-  transition: 0.5s;
-}
-
-footer img {
-  width: 40px;
-  display: block;
-  aspect-ratio: 1/1;
-  filter: invert(0);
-  margin: 0 auto;
-  border: 0;
-  margin-bottom: 2px;
-}
-
-footer p {
-  font-size: clamp(1.0rem, 1.1vw, 1.2rem);    
-  text-align: center;
-  margin: 0 auto;
-}
-
-footer a:link,
-footer a:visited {
-  color: #021323e1 !important;
-  text-decoration: none !important;
-}

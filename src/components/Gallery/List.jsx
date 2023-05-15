@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "../../utilis/Bootstrap.js";
-import Card from "./Panel.js";
+import Card from "./Panel.jsx";
 import data from '../../data/data.json'; 
 
 export default function Gallery() {
@@ -8,13 +8,13 @@ export default function Gallery() {
     <section id="portfolio">
       <Container>
         <Row className="d-flex justify-content-center">
-          <Col xs={10} lg={9} xl={8} className="my-5">
+          <Col xs={11} lg={9} xl={8}>
             <h2>Portfolio</h2>
             <p>My editorial experience runs the gamut from photographic, award-winning nonfiction to highly commercial, older YA and everything in between. This is a sample of the published books and projects I have recently worked on as a freelance editor (click on a book jacket to learn more).</p>
           </Col>
         </Row>
       
-        <Row className="d-flex justify-content-center g-5">
+        <Row className="d-flex justify-content-center g-5 mt-4">
             {data.map( (element) => {
               return !element 
               ? (<p>Loading</p>)

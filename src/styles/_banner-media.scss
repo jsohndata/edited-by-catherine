@@ -1,0 +1,15 @@
+@use "variables" as var;
+
+#banner-media {
+  @extend %banner-style;
+  height: 45vh;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.644);
+  
+  &.pug {
+    background-image: url("../../public/images/site/bg2.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+}

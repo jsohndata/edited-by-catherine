@@ -1,0 +1,18 @@
+@use "variables" as var;
+
+#banner {
+  @extend %bg-gradient;
+  @extend %banner-style;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.644);
+
+  h2, p {
+    color: var.$color-light;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-inner {
+    width: 86%;
+    margin: 0 auto;
+  }
+}

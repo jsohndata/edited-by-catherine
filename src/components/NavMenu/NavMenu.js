@@ -1,19 +1,46 @@
-import {  Navbar, Nav } from "../../utilis/Bootstrap.js";
+import {  Container, Navbar, Nav, NavDropdown, Image } from "../../utilis/Bootstrap.js";
+
 
 export default function NavMenu() {
 
+  const rootUri = process.env.PUBLIC_URL;
+
   return (
-    <Navbar expand={'sm' |  'xxl'} >
-        <Navbar.Brand><h1>C-9 <span>Portfolio</span></h1></Navbar.Brand>
+        <Navbar fixed="top" expand="lg">
+          <Container>
+            <Navbar.Brand>
+              <Nav.Link href="#root"><Image src={`${rootUri}/images/site/edited-by-catherine-mobile.png`} 
+                alt="Edited By Catherine - Editorial Service" /></Nav.Link>
+            </Navbar.Brand>
 
-        <Navbar.Toggle aria-controls="basic-navbar" />
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
 
-        <Navbar.Collapse id="basic-navbar">
-          <Nav className="ms-auto">
-            <Nav.Link href="https://photos.app.goo.gl/53iZfYyER9xnRaHX9" target="_blank">Photo Gallery </Nav.Link>
-            <Nav.Link href="https://bocacode.com/candidates" target="_blank">BocaCode Candidates</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-    </Navbar>
-  );
-}
+              <Nav className="me-auto">
+                <Nav.Link href="#portfolio">Portfolio</Nav.Link>                
+                <Nav.Link href="#about">About</Nav.Link>
+              
+                <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+                  <NavDropdown.Item href="#action/3.1">
+                    Action
+                  </NavDropdown.Item>
+
+                  <NavDropdown.Item href="#action/3.2">
+                    Another action
+                  </NavDropdown.Item>
+
+                  <NavDropdown.Item href="#action/3.3">
+                    Something</NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item href="#action/3.4">
+                    Separated link
+                  </NavDropdown.Item>
+                </NavDropdown>
+
+              </Nav>
+            </Navbar.Collapse>
+          </Container>
+        </Navbar>
+      );
+    }
+

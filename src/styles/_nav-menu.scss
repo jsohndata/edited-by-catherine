@@ -1,0 +1,10 @@
+@use "variables" as var;
+
+.navbar {
+  background-color: var.$color-primary--dark;
+  
+  img { 
+    height: 50px;
+    filter: grayscale(1.0) brightness(100.0);
+  }
+}

@@ -1,21 +1,39 @@
 @use "variables" as var;
 
-#portfolio .card {
-  opacity: 0.6;
-  transition: all 0.9s ease-out; 
+#portfolio {
+  background-color: rgba(221, 221, 221, 0.934);
+  background-image: url("../../public/images/site/bg4.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-blend-mode: overlay;
 
-  &:hover {
-    opacity: 1.0;
-    transition: filter 0.9s ease-out; 
-    cursor: zoom-in
+  h2 {
+    color: var.$color-primary;
   }
 
-  figure {    
-    overflow: hidden;
+  .card {
+    opacity: 0.8;
+    border: 0px;
+    background-color: transparent;
+    transition: all 0.9s ease-out; 
+
+    &:hover {
+      opacity: 1.0;
+      transition: filter 0.9s ease-out; 
+      cursor: zoom-in
+    }
+
+    figure {    
+      overflow: hidden;
+      border-radius: var.$border-radius;
+      border: 3px solid var.$color-light;
+    }
   }
 
   /* Author */
-  .card-body :nth-child(2) {
+  .card-body:nth-child(2) {
     font-size: 95%;
   }
 
@@ -43,7 +61,7 @@
   } */
 
 
-  // Bootstrap's Modal class
+// Bootstrap's Modal class
 .modal-dialog {
   width: 80%;
   margin: 0 auto;
@@ -66,6 +84,7 @@
   }
 }
 
+// XS
 @media (min-width: 0px) {
   .modal-layout > img {
     width: 199px;
@@ -74,6 +93,7 @@
   }
 }
 
+// MD
 @media (min-width: 992px) {
   .modal-layout > img {
     width: 332px;
