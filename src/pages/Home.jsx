@@ -40,7 +40,7 @@ export default function Home() {
           textRight={false}
         />        
 
-        <div class="bg-extender">
+        <div className="bg-extender">
         <Faq />
 
         <Footer />

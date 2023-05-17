@@ -17,7 +17,7 @@ export default function Services() {
         <Row className="d-flex justify-content-center mt-4">
           <Col xs={11} lg={10} className="mt-4">
             <Accordion>
-              <Accordion.Item eventKey="0" classNa>
+              <Accordion.Item eventKey="0">
                 <Accordion.Header>
                   <Image src={`${imgUri}/images/site/services-author.webp`}
                       height="200"

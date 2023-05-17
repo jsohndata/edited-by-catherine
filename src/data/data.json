@@ -6,7 +6,7 @@
     
     "content" : "To Be Published March 2023",
 
-    "cover": "http://localhost:3000/edited-by-catherine/images/covers/zeus-the-mighty-voyage-on-the-oddest-sea-book-5.webp"    
+    "cover": "/images/covers/zeus-the-mighty-voyage-on-the-oddest-sea-book-5.webp"    
   },
 
   {
@@ -17,7 +17,7 @@
     "content" : "<p>To Be Published January 2023</p><p><q>A refreshing change of pace for readers weary of hearing that things are just getting worse.<q><br>—<em>Kirkus Reviews</em></p>", 
 
 
-    "cover": "http://localhost:3000/edited-by-catherine/images/covers/extra-life.jpg"    
+    "cover": "/images/covers/extra-life.jpg"    
   },
 
   {
@@ -28,7 +28,7 @@
     "content" : "<p><q>This riveting biography provides the framework of Hall's life, concentrating on the war years and her phenomenal ability to fade into the background while gathering intelligence, communicating with the British, and undermining German control within occupied France. Young readers intrigued by espionage during World War II will find this a well-researched, smoothly written, and completely riveting account of Hall's experiences.</q><br><em>—Booklist, starred review</em></p><p><q>Well-chosen, key moments convey Hall's reliance on both luck and her own instincts, her quick thinking, her immense skill at assessing perilous situations, and her frank courage. . . A captivating account of a remarkable woman.</q><br><em>—Kirkus Reviews, starred review</em></p><p>A Kids' Indie Next List Selection</p>",
 
 
-    "cover": "http://localhost:3000/edited-by-catherine/images/covers/agent-most-wanted.webp"    
+    "cover": "/images/covers/agent-most-wanted.webp"    
   },
 
   {
@@ -39,7 +39,7 @@
     "content" : "<p>Young Readers edition adapted by Catherine Frank</p><p><q>Skillfully adapted from his best-selling adult book.</q><br>—<em>Booklist</em></p><p><q>An absorbing read about digital privacy and one man's fateful choice to disclose government secrets.</q><br><em>―Kirkus Reviews</em></p><p><q>A fascinating look behind the scenes of real-life espionage.</q><br><em>―School Library Journal</em></p>",
 
 
-    "cover": "http://localhost:3000/edited-by-catherine/images/covers/permanent-record.jpg"    
+    "cover": "/images/covers/permanent-record.jpg"    
   },
 
   {
@@ -50,7 +50,7 @@
     "content" : "",
 
 
-    "cover": "http://localhost:3000/edited-by-catherine/images/covers/daisy-and-monda-lisa.webp"    
+    "cover": "/images/covers/daisy-and-monda-lisa.webp"    
   }, 
 
   {
@@ -60,7 +60,7 @@
 
     "content" : "<p><q>An eye-opening look at an unforgettable historical event. Highly recommended.</q><br><em>―Booklist, starred review</em></p><p><q>A well-researched, detailed account of a part of World War II that remains unknown to many today.</q><br><em>―School Library Journal, starred review</em></p>",
 
-    "cover": "http://localhost:3000/edited-by-catherine/images/covers/ensnared-in-the-wolfs-lair.jpg"    
+    "cover": "/images/covers/ensnared-in-the-wolfs-lair.jpg"    
   },
 
   {
@@ -70,7 +70,7 @@
 
     "content" : "<p>Awards and Honors include:<ul><li>BCCB Blue Ribbon selection</li><li>Booklist Editors' Choice</li><li>Booklist Top 10 Romance Fiction for Youth List</li><li>New York Public Library Best Books for Teens</li></ul></p><p><q>An extraordinarily successful resource about a painful time in history and a complicated, infamous pair.</q><br><em>-Booklist, starred review</em></p><p><q>An extraordinarily successful resource about a painful time in history and a complicated, infamous pair.</q><br><em>-School Library Connection, starred review</em></p>",
 
-    "cover": "http://localhost:3000/edited-by-catherine/images/covers/bonnie-and-clyde-the-making-of-a-legend.jpg"    
+    "cover": "/images/covers/bonnie-and-clyde-the-making-of-a-legend.jpg"    
   },
 
   {
@@ -81,6 +81,6 @@
     "content" : "",
 
 
-    "cover": "http://localhost:3000/edited-by-catherine/images/covers/zeus-the-mighty.webp"    
+    "cover": "/images/covers/zeus-the-mighty.webp"    
   }
 ]
