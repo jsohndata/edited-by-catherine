@@ -6,7 +6,7 @@ export default function NavMenu() {
   const rootUri = process.env.PUBLIC_URL;
 
   return (
-        <Navbar fixed="top" expand="lg">
+        <Navbar fixed="top" expand="lg" variant="dark">
           <Container>
             <Navbar.Brand>
               <Nav.Link href="#root"><Image src={`${rootUri}/images/site/edited-by-catherine-mobile.png`} 
@@ -19,24 +19,9 @@ export default function NavMenu() {
               <Nav className="me-auto">
                 <Nav.Link href="#portfolio">Portfolio</Nav.Link>                
                 <Nav.Link href="#about">About</Nav.Link>
-              
-                <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                  <NavDropdown.Item href="#action/3.1">
-                    Action
-                  </NavDropdown.Item>
-
-                  <NavDropdown.Item href="#action/3.2">
-                    Another action
-                  </NavDropdown.Item>
-
-                  <NavDropdown.Item href="#action/3.3">
-                    Something</NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action/3.4">
-                    Separated link
-                  </NavDropdown.Item>
-                </NavDropdown>
-
+                <Nav.Link href="#services">Services</Nav.Link>
+                <Nav.Link href="#faq">Faq</Nav.Link>
+                <Nav.Link href="mailto:catherine@editedbycatherine.com">Contact</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>

@@ -5,12 +5,12 @@ export default function Intro() {
 
   return (
     <main id="intro">
-      <Container>
+      <Container className="mt-md-5">
         <Row className="d-flex 
           justify-content-center
           justify-content-lg-start
           align-items-center">
-          <Col xs={11} md={10} lg={10} xl={8}>            
+          <Col xs={11} md={9} lg={8} xl={7}>            
             <h1>Writing is a solitary endeavor.</h1>
             <h2>Becoming a published author takes a team.</h2>
             <p>Do you have the seed of an idea for a children's book and want to know more about the industry? Does your critique group love your manuscript, and now you're wondering what the next step is? Does your manuscript need a big picture edit or polishing before it's ready for submission?</p>

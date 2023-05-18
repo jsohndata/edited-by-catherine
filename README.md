@@ -1,5 +1,7 @@
 # Edited by Catherine
 
+Photo by Julia M Cameron: https://www.pexels.com/photo/person-writing-on-notebook-4144923/
+
 Photo by Michael Burrows from Pexels: https://www.pexels.com/photo/crop-faceless-person-writing-in-notebook-7129052/
 
 Photo by Zaksheuskaya from Pexels: https://www.pexels.com/photo/blue-abstract-painting-1568607/

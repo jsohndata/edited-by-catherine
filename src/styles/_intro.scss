@@ -1,8 +1,9 @@
 @use "_variables" as var;
 
 main {
-  height: clamp(90vh, 10vh, 80vh);
-  background-color: rgba(0, 0, 0, 0.609);
+  height: clamp(90%, 10vh, 80%);
+  padding-bottom: 80px;
+  background-color: rgba(252, 252, 252, 0.272);
   background-image: url("../../public/images/site/bg11.webp");
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -11,10 +12,10 @@ main {
   background-blend-mode: color;
 
   h1, h2, p {
-    text-shadow: 10px 10px 20px rgb(13, 12, 12);
-  }
+    text-shadow: 1px 1px 2px rgba(77, 75, 75, 0.661);
+  } 
 
-  h1 { color: var.$color-light; }
-  h2 { color: var.$color-primary--light; }
-  p  { color: var.$color-light; }
+  // h1 { color: var.$color-light; }
+  // h2 { color: var.$color-primary--light; }
+  // p  { color: var.$color-light; }
 }
