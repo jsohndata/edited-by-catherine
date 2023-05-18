@@ -1,5 +1,5 @@
 import { HashLink } from "react-router-hash-link";
-import { Container, Row, Col, Button } from "../../utilis/Bootstrap.js";
+import { Container, Row, Col, Button } from "../../utilis/Bootstrap.jsx";
 
 export default function Intro() {  
 

@@ -1,4 +1,4 @@
-import { Container, Row, Col, Image } from "../../utilis/Bootstrap.js";
+import { Container, Row, Col, Image } from "../../utilis/Bootstrap.jsx";
 
 export default function About() {
 

@@ -1,4 +1,4 @@
-import {  Container, Row, Col } from "../../utilis/Bootstrap.js";
+import { Container, Row, Col } from "../../utilis/Bootstrap.jsx";
 import Column from "./Column.jsx";
 
 export default function Banner( {textTitle, textLeft, textRight} ) {

@@ -1,4 +1,4 @@
-import { Container, Row, Col, Accordion } from "../../utilis/Bootstrap.js";
+import { Container, Row, Col, Accordion } from "../../utilis/Bootstrap.jsx";
 
 export default function Faq() {
   

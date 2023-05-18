@@ -1,4 +1,4 @@
-import { Container, Row, Col } from "../../utilis/Bootstrap.js";
+import { Container, Row, Col } from "../../utilis/Bootstrap.jsx";
 import Card from "./Panel.jsx";
 import data from '../../data/data.json'; 
 

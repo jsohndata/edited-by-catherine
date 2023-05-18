@@ -1,5 +1,5 @@
 import { useState } from "react";
-import {Col, Card, Modal, Image} from "../../utilis/Bootstrap.js";
+import {Col, Card, Modal, Image} from "../../utilis/Bootstrap.jsx";
 
 
 export default function GalleryCard({ data: {id, title, author, cover, content, website} }) {
