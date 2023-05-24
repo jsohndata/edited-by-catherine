@@ -3,30 +3,31 @@
 main {
   height: clamp(60srem, 15vh, 50rem);
   padding-bottom: 80px;  
-  background-color: rgba(252, 252, 252, 0.176);
+  background-color: rgba(240, 3, 3, 0.176);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
   background-blend-mode: color;
-  animation: main-animate 20s ease-in-out infinite;
+  background-image: url("../../public/images/site/bg-01.webp");
+  // animation: main-animate 20s ease-in-out infinite;
 
-  @keyframes main-animate {
-    00% { 
-      background-position: 0% 0%; 
-      background-image: url("../../public/images/site/bg-01.webp");
-    }
+  // @keyframes main-animate {
+  //   00% { 
+  //     background-position: 0% 0%; 
+  //     background-image: url("../../public/images/site/bg-01.webp");
+  //   }
 
-    50% { 
-      background-position: 100% 100%; 
-      background-image: url("../../public/images/site/bg-02.webp");
-    }
+  //   50% { 
+  //     background-position: 100% 100%; 
+  //     background-image: url("../../public/images/site/bg-02.webp");
+  //   }
     
-    100% { 
-      background-position: 0% 0%; 
-      background-image: url("../../public/images/site/bg-01.webp");
-    }
-  }
+  //   100% { 
+  //     background-position: 0% 0%; 
+  //     background-image: url("../../public/images/site/bg-01.webp");
+  //   }
+  // }
 
   h1 {
     color: var.$color-primary--dark;

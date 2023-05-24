@@ -1,4 +1,5 @@
 import { Container, Row, Col, Accordion, Image } from "../../utilis/Bootstrap.jsx";
+import { Link } from "react-router-dom";
 
 export default function Services() {
 
@@ -77,19 +78,23 @@ export default function Services() {
                   <div className="service-content">
                     <h3>Illustrators</h3>
                     <ul>
-                      <li><em>Portfolio critiques and reviews</em></li>
-                      <li><em>Proposal/query evaluations and critiques</em></li>
-                      <li><em>General career consultation</em></li>
+                      <li><em>Portfolio critique and review</em></li>
+                      <li><em>Proposal/query evaluation and critique</em></li>
+                      <li><em>Coaching and consulting services</em></li>
                     </ul>
                   </div>
                 </Accordion.Header>
 
                 <Accordion.Body>
-                  <h4>Artist portfolio review</h4>
-                  <p>By appointment only. Please <a href='mailto:catherine@editedbycatherine.com?subject=Artist query about editorial consultation'><em>email me</em></a> for details.</p>  
+                  <h4>Portfolio Critique and Review</h4>
+                  <p>Available at $250/session. By appointment only. Deliverables may include written notes and a meeting to discuss portfolio strengths and weaknesses in the current illustration market. Payment is due upon completion of the work and receipt of an invoice.</p>  
               
-                  <h4>Rates:</h4>
-                  <p>Artist portfolio reviews are available at $250/session.</p>
+                  <h4>Proposal/query Evaluation</h4>
+                  <p>Available at an hourly rate of $150. Deliverables generally include a line-edited Word document, brief additional written notes as needed, and the option for follow-up questions via email or by phone. Please allow up to three hours for this service. Query editing may also be added to other services. Payment is due upon completion of the work and receipt of an invoice.</p>
+
+                  <h4>Coaching and Consulting Services</h4>
+                  <p>For illustrators seeking either one-time general career/craft advice or on-going, dedicated personal support. These services are available at an hourly rate of $195. A minimum of one hour is required. Flat fees or retainers also are available for on-going coaching work. All rates and fees will be mutually agreed upon in writing prior to any work and may be renegotiated as needed over the course of work.</p>
+                  <p>Please <a href='mailto:catherine@editedbycatherine.com'>email me</a> for details.</p>
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
@@ -110,15 +115,22 @@ export default function Services() {
                     <ul>
                       <li><em>Full-service project editing</em></li>
                       <li><em>Manuscript consultation and troubleshooting</em></li>
-                      <li><em>Adaptation of published adult books into young readers’ editions</em></li>
+                      <li><em>Adaptation of published adult books into young readers' editions</em></li>
                     </ul>
                   </div>
                 </Accordion.Header>
 
                 <Accordion.Body>
-                  <p>Please visit my <a href="https://www.editedbycatherine.com/index.php?page=portfolio">Portfolio page</a> to review a selection of titles I've recently worked on with a range of trade publishers. I have extensive experience collaborating with in-house editorial teams, serving as lead editor for individual titles, troubleshooting and revising challenging or orphaned projects, and successfully meeting tight schedules.</p>
-                  <p>I also have significant experience adapting award-winning and best-selling adult books into successful young readers' editions. Please visit my <a href="https://www.editedbycatherine.com/index.php?page=portfolio">Portfolio page</a> to review a selection of adaptations I've either edited or adapted.</p>
-                  <p>Please <a href="mailto:catherine@editedbycatherine.com?subject=Query about freelance editorial work"><em>email me</em></a> to talk about how I may help your editorial team.</p>
+                  <h4>Full-service Project Editing</h4>
+                  <p>I have extensive experience collaborating with in-house editorial teams, serving as lead editor for individual titles, and successfully meeting tight schedules. Please visit my <Link to="/#portfolio">Portfolio</Link> to review a selection of recent books I’ve edited.</p>
+
+                  <h4>Manuscript Consultation and Troubleshooting</h4>
+                  <p>I’m experienced in guiding challenging projects and orphaned projects through the complete production process, and in serving as a temporary or substitute editor on an as-needed basis.</p>
+
+                  <h4>Adaptation Services</h4>
+                  <p>I have significant experience adapting award-winning and best-selling adult books into successful young readers’ editions for major trade publishers. Please visit my <Link to="/#portfolio">Portfolio</Link> to review a selection of books I’ve adapted.</p>
+
+                  <p>Please <a href="mailto:catherine@editedbycatherine.com">email me</a> to talk about how I may help your editorial team.</p>
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
@@ -137,16 +149,20 @@ export default function Services() {
                   <div className="service-content">
                     <h3>Agents</h3>
                     <ul>
-                      <li><em>Manuscript evaluations</em></li>
                       <li><em>Manuscript consultation</em></li>
-                      <li><em>Author and illustrator career strategy consultation</em></li>
+                      <li><em>Manuscript evaluation</em></li>
                     </ul>
                   </div>
                 </Accordion.Header>
 
                 <Accordion.Body>
-                  <p>I have extensive experience working with authors, illustrators, and agents to guide projects toward acquisition. I’m available to provide feedback about manuscripts, to serve as a sounding board for authors and agents, and to offer other editorial support as needed.</p>
-                  <p>Please <a href="mailto:catherine@editedbycatherine.com?subject=Query about freelance editorial work"><em>email me</em></a> to talk about how I may help your team and your clients.</p>
+                  <h4>Manuscript Consultation</h4>
+                  <p>I’m available to provide feedback about manuscripts to agents and directly to authors, to serve as a sounding board or provide a second editorial opinion, and to offer other editorial support as needed.</p>
+
+                  <h4>Manuscript Evaluation</h4>
+                  <p>I have extensive experience working with authors, illustrators, and agents to guide projects toward acquisition. I’m available to evaluate manuscripts and offer editorial feedback.</p>
+
+                  <p>Please <a href="mailto:catherine@editedbycatherine.com"><em>email me</em></a> to talk about how I may help your team and your clients.</p>                  
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
