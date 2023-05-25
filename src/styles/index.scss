@@ -9,7 +9,7 @@
 * { font-family: 'Montserrat', sans-serif; }
 
 body { 
-  background-color: rgba(255, 255, 255, 0.793);
+  background-color: rgba(255, 255, 255, 0.472);
   background-image: url("../../public/images/site/bg-grid.webp");
   background-repeat: repeat;
   // background-attachment: fixed;  
@@ -17,10 +17,11 @@ body {
   // background-position: bottom;
   // background-blend-mode: overlay;
   transition: all 0.6 ease-in-out;
+  background-blend-mode: color;
 }
 
 h1 {
-  font-size: clamp(4.5rem, 4vw, 5.5rem);
+  font-size: clamp(3.5rem, 4vw, 4.5rem);
   line-height: 1.1em;
   font-weight: 600;
   letter-spacing: -0.2rem;
