@@ -12,8 +12,8 @@ export default function Intro() {
           align-items-center">
           <Col xs={11} lg={8} xl={7} className="content">            
             <div className="custom-intro">
-              <h2>Writing is a solitary endeavor.</h2> 
-              <h1>Becoming a published author takes a team.</h1> 
+              <h1>Writing is a solitary endeavor.</h1> 
+              <h2>Becoming a published author takes a team.</h2> 
             </div>
                        
             <p>Do you have the seed of an idea for a children's book and want to know more about the industry? Does your critique group love your manuscript, and now you're wondering what the next step is? Does your manuscript need a big picture edit or polishing before it's ready for submission?</p>

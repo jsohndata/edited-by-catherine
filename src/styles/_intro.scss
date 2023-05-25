@@ -29,6 +29,21 @@ main {
   //   }
   // }
 
+  /* Swapping the H1 and H2 font sizes */
+  .custom-intro {
+    h1 {
+      font-size: clamp(2.0rem, 2vw, 2.4rem);
+      font-weight: 600;
+    }
+
+    h2 {
+      font-size: clamp(3.5rem, 4vw, 4.5rem);
+      line-height: 1.1em;
+      font-weight: 600;
+      letter-spacing: -0.2rem;
+    }
+  }
+
   h1 {
     color: var.$color-primary--dark;
   }
