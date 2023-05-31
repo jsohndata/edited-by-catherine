@@ -16,8 +16,8 @@ export default function Intro() {
               <h2>Becoming a published author takes a team.</h2> 
             </div>
                        
-            <p>Do you have the seed of an idea for a children's book and want to know more about the industry? Does your critique group love your manuscript, and now you're wondering what the next step is? Does your manuscript need a big picture edit or polishing before it's ready for submission?</p>
-            <HashLink to="/#portfolio"><Button size="lg" variant="outline-success" className="custom-button">View Portfolio</Button></HashLink>
+            <p>Do you have the seed of an idea for a children's book? Are you wondering what the next step is for your manuscript? Does your story need a big picture edit or polish to be ready for submission? Catherine Frank Editorial Services, LLC specializes in children’s writing and publishing and offers personalized editorial expertise.</p>
+            <HashLink to="/#services"><Button size="lg" variant="outline-success" className="custom-button">View Services</Button></HashLink>
           </Col>          
         </Row>
       </Container>

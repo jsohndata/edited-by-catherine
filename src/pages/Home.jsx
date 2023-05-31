@@ -36,7 +36,7 @@ export default function Home() {
 
         <Banner
           textTitle={false}
-          textLeft={<p><em><q>My favorite part of the editorial process is diving into a manuscript, seeing where it takes me, and envisioning how that journey could be strengthened. I can help deepen characters, focus plots, and improve a story's pacing, whether it's a 100-word picture book text or a YA narrative nonfiction manuscript.</q></em></p>}
+          textLeft={<p><em>My favorite part of the editorial process is diving into a manuscript, seeing where it takes me, and envisioning how that journey could be strengthened. I can help deepen characters, focus plots, and improve a story's pacing, whether it's a 100-word picture book text or a YA narrative nonfiction manuscript.</em></p>}
           textRight={false}
         />        
 

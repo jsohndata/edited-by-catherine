@@ -1,2 +1,7 @@
 @use "variables" as var;
 
+#faq {
+  h2 {
+    color: var.$color-primary;
+  }
+}

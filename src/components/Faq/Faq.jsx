@@ -7,7 +7,7 @@ export default function Faq() {
       <Container>
         <Row className="d-flex justify-content-center">
             <Col xs={11} lg={9} xl={8}>
-              <h2 className="text-center">Frequently Asked Questions</h2>
+              <h2>Frequently Asked Questions</h2>
             </Col>
         </Row>
 

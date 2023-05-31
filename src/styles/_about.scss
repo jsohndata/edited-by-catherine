@@ -1,9 +1,12 @@
 @use "variables" as var;
 
 #about {
-
   & img {
     border-radius: var.$border-radius;
     border: 5px solid var.$color-primary--light;
+  }
+
+  h2 {
+    color: var.$color-primary;
   }
 };

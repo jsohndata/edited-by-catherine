@@ -31,9 +31,9 @@ export default function Services() {
                     <ul>
                       <li><em>Free initial manuscript review</em></li>
                       <li><em>Query/proposal/synopsis critiques and editing</em></li>
-                      <li><em>Manuscript critiques</em></li>
-                      <li><em>In-depth, multi-round developmental editing</em></li>
                       <li><em>Coaching and consulting</em></li>
+                      <li><em>Manuscript critiques</em></li>
+                      <li><em>In-depth, multi-round developmental editing</em></li>                      
                     </ul>
                   </div>
                 </Accordion.Header>
@@ -46,10 +46,10 @@ export default function Services() {
                   <p>Available at an hourly rate of $150. Deliverables generally include a line-edited Word document, brief additional written notes as needed, and the option for follow-up questions via email or by phone. Please allow up to three hours for this service. Query editing may be included with multi-round developmental manuscript editing upon request and may also be added to other services. Payment is due upon completion of the work and receipt of an invoice.</p>
 
                   <h4>Coaching and consulting services</h4>
-                  <p>For writers seeking either one-time general career/craft advice or on-going, dedicated personal support are available at an hourly rate of $195. A minimum of one hour is required. Flat fees or retainers also are available for on-going coaching work. All rates and fees will be mutually agreed upon in writing prior to any work and may be renegotiated as needed over the course of work.</p>
+                  <p>For writers seeking either one-time general career/craft advice or ongoing, dedicated personal support, consulting services are available at an hourly rate of $195. A minimum of one hour is required. Flat fees or retainers also are available for ongoing coaching work. All rates and fees will be mutually agreed upon in writing prior to any work and may be renegotiated as needed over the course of work.</p>
 
                   <h4>Short-term or smaller editorial projects</h4>
-                  <p>An hourly rate of $125 is available on a limited basis. A minimum of one hour is required, and an estimate will be provided prior to any work. Please note that this rate is reserved for single-round editing of short texts and other small projects only and is applied at Catherine Frank Editorial Services, LLC's discretion. Deliverables may include written notes, margin notes in a Word document, and/or a follow-up phone call. Payment is due upon completion of the work and receipt of an invoice.</p>
+                  <p>An hourly rate of $150 is available on a limited basis. A minimum of one hour is required, and an estimate will be provided prior to any work. Please note that this rate is reserved for single-round editing of short texts and other small projects only and is applied at Catherine Frank Editorial Services, LLC's discretion. Deliverables may include written notes, margin notes in a Word document, and/or a follow-up phone call. Payment is due upon completion of the work and receipt of an invoice.</p>
 
                   <h4>Large scale or in-depth projects</h4>
                   <p>A flat fee will be charged. This might include single-round feedback for manuscripts longer than 4,000 words or deeper, multi-round developmental editing, which typically involves three rounds of deliverables such as a detailed editorial letter, manuscript line-editing in a Word document, and a final batch of notes and manuscript polishing. Follow-up phone calls are included with each round of work and communication between rounds of work via email is strongly encouraged. Single-round flat fees begin at $750 for picture book texts and $1,700 for longer fiction and nonfiction. Deeper, multi-round developmental editing (as described above) rates begin at $1,000 for picture book texts and $2,800 for longer fiction and nonfiction. All flat fee rates are subject to adjustment based on the size and scope of the project and will be mutually agreed upon in writing prior to any work. Payment terms will be set prior to any work. Payment is generally divided into segments and due at specified points during the course of work and upon completion.</p>
