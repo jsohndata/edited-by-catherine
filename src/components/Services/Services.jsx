@@ -20,10 +20,10 @@ export default function Services() {
             <Accordion>
               <Accordion.Item eventKey="0">
                 <Accordion.Header>
-                  {/* <Image src={`${imgUri}/images/site/services-author.webp`}
+                  <Image src={`${imgUri}/images/site/services-authors.png`}
                       height="200"
                       alt=""
-                      className="me-3 d-none d-md-block" />                   */}
+                      className="me-3 d-none d-md-block" />                  
                   
                   <div className="service-content">
                     <h3>Authors</h3>
@@ -72,10 +72,10 @@ export default function Services() {
             <Accordion>
               <Accordion.Item eventKey="1">
                 <Accordion.Header>
-                  {/* <Image src={`${imgUri}/images/site/services-illustrator.webp`}
+                  <Image src={`${imgUri}/images/site/services-illustrators.png`}
                       height="200"
                       alt=""
-                      className="me-3 d-none d-md-block" />                  */}
+                      className="me-3 d-none d-md-block" />                 
                   
                   <div className="service-content">
                     <h3>Illustrators</h3>
@@ -107,10 +107,10 @@ export default function Services() {
             <Accordion>
               <Accordion.Item eventKey="2">
                 <Accordion.Header>
-                  {/* <Image src={`${imgUri}/images/site/services-publisher.webp`}
+                  <Image src={`${imgUri}/images/site/services-publishers.png`}
                       height="200"
                       alt=""
-                      className="me-3 d-none d-md-block" /> */}
+                      className="me-3 d-none d-md-block" />
                   
                   <div className="service-content">
                     <h3>Publishers</h3>
@@ -143,10 +143,10 @@ export default function Services() {
             <Accordion>
               <Accordion.Item eventKey="3">
                 <Accordion.Header>
-                {/* <Image src={`${imgUri}/images/site/services-agent.webp`}
+                <Image src={`${imgUri}/images/site/services-agents.png`}
                       height="200"
                       alt=""
-                      className="me-3 d-none d-md-block" /> */}
+                      className="me-3 d-none d-md-block" />
 
                   <div className="service-content">
                     <h3>Agents</h3>
