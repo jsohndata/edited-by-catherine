@@ -1,4 +1,4 @@
-import { Container, Row, Col, Image } from "../../utilis/Bootstrap.jsx";
+import { Container, Row, Col, Image } from "../../utils/Bootstrap.jsx";
 
 export default function Footer() {
     const imgUri = process.env.PUBLIC_URL;

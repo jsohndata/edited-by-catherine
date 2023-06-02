@@ -1,4 +1,4 @@
-import {  Container, Navbar, Nav, Image } from "../../utilis/Bootstrap.jsx";
+import {  Container, Navbar, Nav, Image } from "../../utils/Bootstrap.jsx";
 
 
 export default function NavMenu() {

@@ -1,5 +1,5 @@
 
-import { Col } from "../../utilis/Bootstrap.jsx";
+import { Col } from "../../utils/Bootstrap.jsx";
 
 export default function Column ( {text} ) {
 

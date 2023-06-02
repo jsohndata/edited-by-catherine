@@ -1,4 +1,4 @@
-import { Container, Row, Col, Accordion, Image } from "../../utilis/Bootstrap.jsx";
+import { Container, Row, Col, Accordion, Image } from "../../utils/Bootstrap.jsx";
 import { Link } from "react-router-dom";
 
 export default function Services() {
