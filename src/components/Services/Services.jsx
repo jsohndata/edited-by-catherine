@@ -20,7 +20,7 @@ export default function Services() {
             <Accordion>
               <Accordion.Item eventKey="0">
                 <Accordion.Header>
-                  <Image src={`${imgUri}/images/site/services-authors.png`}
+                  <Image src={`${imgUri}/images/site/services-authors.webp`}
                       height="200"
                       alt=""
                       className="me-3 d-none d-md-block" />                  
@@ -72,7 +72,7 @@ export default function Services() {
             <Accordion>
               <Accordion.Item eventKey="1">
                 <Accordion.Header>
-                  <Image src={`${imgUri}/images/site/services-illustrators.png`}
+                  <Image src={`${imgUri}/images/site/services-illustrators.webp`}
                       height="200"
                       alt=""
                       className="me-3 d-none d-md-block" />                 
@@ -107,7 +107,7 @@ export default function Services() {
             <Accordion>
               <Accordion.Item eventKey="2">
                 <Accordion.Header>
-                  <Image src={`${imgUri}/images/site/services-publishers.png`}
+                  <Image src={`${imgUri}/images/site/services-publishers.webp`}
                       height="200"
                       alt=""
                       className="me-3 d-none d-md-block" />
@@ -143,7 +143,7 @@ export default function Services() {
             <Accordion>
               <Accordion.Item eventKey="3">
                 <Accordion.Header>
-                <Image src={`${imgUri}/images/site/services-agents.png`}
+                <Image src={`${imgUri}/images/site/services-agents.webp`}
                       height="200"
                       alt=""
                       className="me-3 d-none d-md-block" />
