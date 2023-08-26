@@ -1,5 +1,25 @@
 [
   {
+    "id": 1,
+    "title": "Year of the Puppy",
+    "author": "Alexandra Horowitz",
+    
+    "content" : "Young Readers edition adapted by Catherine Frank",
+
+    "cover": "/images/covers/year-of-the-puppy.webp"    
+  },
+
+  {
+    "id": 2,
+    "title": "Zeus the Mighty: The Voyage on the Oddest Sea (Book 5)",
+    "author": "Crispin Boyer",
+    
+    "content" : "Young Readers edition adapted by Catherine Frank",
+
+    "cover": "/images/covers/zeus-the-mighty-voyage-on-the-oddest-sea-book-5.webp"    
+  },
+
+  {
     "id": 10,
     "title": "Zeus the Mighty: The Voyage on the Oddest Sea (Book 5)",
     "author": "Crispin Boyer",
